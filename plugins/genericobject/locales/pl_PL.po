@@ -1,0 +1,182 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# awiamo, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI Plugin - Genericobject\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-19 14:05+0000\n"
+"PO-Revision-Date: 2015-07-23 09:47+0000\n"
+"Last-Translator: awiamo, 2015\n"
+"Language-Team: Polish (Poland) (http://app.transifex.com/teclib/glpi-project-plugin-genericobject/language/pl_PL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+
+#: inc/profile.class.php:152
+msgid "(No types defined yet)"
+msgstr ""
+
+#: inc/type.class.php:185
+msgid "A type already exists with the same name"
+msgstr "Istnieje już typ o takiej samej nazwie"
+
+#: inc/field.class.php:129
+msgid "Add new field"
+msgstr "Dodaj nowe pole"
+
+#: inc/type.class.php:647
+msgid "Behaviour"
+msgstr "Zachowanie"
+
+#: index.php:71 front/familylist.php:40
+msgid "Empty family"
+msgstr ""
+
+#: inc/typefamily.class.php:39 inc/type.class.php:491 inc/type.class.php:632
+msgid "Family of type of objects"
+msgstr ""
+
+#: front/field.form.php:54
+msgid "Field added successfully"
+msgstr "Pole dodane pomyślnie"
+
+#: front/field.form.php:44
+msgid "Field(s) deleted successfully"
+msgstr "Pole(a) zostały pomyślnie skasowane"
+
+#: inc/field.class.php:68
+msgid "Fields associated with the object"
+msgstr ""
+
+#: inc/profile.class.php:144
+msgid "General"
+msgstr ""
+
+#: inc/type.class.php:737
+msgid "Icon (impact analysis)"
+msgstr ""
+
+#: inc/type.class.php:588
+msgid "Internal identifier"
+msgstr "Identyfikator wewnętrzny"
+
+#: inc/field.class.php:74
+msgid "Label"
+msgstr "Etykieta"
+
+#: inc/type.class.php:882
+msgid "Link to other objects"
+msgstr "Link do innych obiektów"
+
+#: inc/field.class.php:75
+msgid "Name in DB"
+msgstr "Nazwa w DB"
+
+#: inc/type.class.php:666
+msgid "Network connections"
+msgstr "Połączenia sieciowe"
+
+#: inc/object.class.php:562
+msgid "Object preview"
+msgstr "Podgląd obiektu"
+
+#: inc/profile.class.php:150
+msgid "Objects"
+msgstr ""
+
+#: index.php:61 inc/object_item.class.php:112 inc/profile.class.php:42
+#: inc/type.class.php:403 inc/type.class.php:538 front/type.form.php:76
+#: front/familylist.php:36 front/familylist.php:44 setup.php:231
+msgid "Objects management"
+msgstr "Zarządzanie obiektami"
+
+#: inc/type.class.php:1892
+msgid "Other"
+msgid_plural "Others"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+msgstr[3] ""
+
+#: inc/field.class.php:324
+msgid "Read-only field"
+msgstr ""
+
+#: inc/type.class.php:869
+msgid "Regenerate files"
+msgstr ""
+
+#: front/commontreedropdown.form.php:39 front/commondropdown.form.php:39
+#: front/commondropdown.php:39
+msgid "The requested dropdown does not exists"
+msgstr "Żądana lista rozwijana nie istnieje"
+
+#: inc/type.class.php:178
+msgid "Type must start with a letter"
+msgstr "Typ musi zaczynać się od litery"
+
+#: inc/type.class.php:159
+msgid "Type name is missing"
+msgstr ""
+
+#: inc/type.class.php:165
+msgid "Type name must be longer"
+msgstr ""
+
+#: inc/profile.class.php:290 inc/type.class.php:69 front/object.php:36
+#: front/type.php:41
+msgid "Type of objects"
+msgstr "Rodzaj obiektów"
+
+#: inc/type.class.php:171
+msgid ""
+"Types 'field', 'object' and 'type' are reserved. Please choose another one"
+msgstr ""
+
+#. TRANS:  %1$s is itemtype name
+#: inc/type.class.php:2261
+#, php-format
+msgid "Unable to load the class %1$s."
+msgstr ""
+
+#: inc/object.class.php:826
+msgid "You must configure rights to enable the preview"
+msgstr ""
+
+#. TRANS:  %1$s is itemtype name
+#: inc/type.class.php:2263
+#, php-format
+msgid ""
+"You probably have garbage data in your database for this plugin and missing "
+"files in %1$s"
+msgstr ""
+
+#: inc/type.class.php:674
+msgid "geninventorynumber plugin"
+msgstr "geninventorynumber plugin"
+
+#: inc/type.class.php:672
+msgid "injection file plugin"
+msgstr ""
+
+#: inc/type.class.php:676
+msgid "item's uninstallation plugin"
+msgstr ""
+
+#: inc/type.class.php:675
+msgid "order plugin"
+msgstr ""
+
+#: inc/type.class.php:677
+msgid "simcard plugin"
+msgstr ""
+
+#: inc/type.class.php:678
+msgid "treeview plugin"
+msgstr ""

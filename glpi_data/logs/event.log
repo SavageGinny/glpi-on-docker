@@ -1,0 +1,34 @@
+2025-10-17 12:37:42 [@ba4da69fa98b]
+[login] 3: glpi вошел в систему с IP 172.18.0.1
+2025-10-17 12:43:58 [2@ba4da69fa98b]
+[setup] [Plugin 2] 3: Plugin Additional fields has been installed by glpi (2).
+2025-10-17 12:44:02 [2@ba4da69fa98b]
+[setup] [Plugin 3] 3: Plugin Data injection has been installed by glpi (2).
+2025-10-17 12:44:05 [2@ba4da69fa98b]
+[setup] [Plugin 4] 3: Plugin Escalation has been installed by glpi (2).
+2025-10-17 12:44:09 [2@ba4da69fa98b]
+[setup] [Plugin 5] 3: Plugin Form Creator has been installed by glpi (2).
+2025-10-17 12:44:31 [2@ba4da69fa98b]
+[setup] [Plugin 6] 3: Plugin GLPI Inventory has been installed by glpi (2).
+2025-10-17 12:44:39 [2@ba4da69fa98b]
+[setup] [Plugin 7] 3: Plugin Objects management has been installed by glpi (2).
+2025-10-17 12:44:43 [2@ba4da69fa98b]
+[setup] [Plugin 8] 3: Plugin Prometheus GLPI has been installed by glpi (2).
+2025-10-17 12:44:46 [2@ba4da69fa98b]
+[setup] [Plugin 9] 3: Plugin TaskDrop has been installed by glpi (2).
+2025-10-17 12:44:49 [2@ba4da69fa98b]
+[setup] [Plugin 10] 3: Plugin TaskDrop has been activated by glpi (2).
+2025-10-17 12:44:51 [2@ba4da69fa98b]
+[setup] [Plugin 11] 3: Plugin Prometheus GLPI has been activated by glpi (2).
+2025-10-17 12:44:53 [2@ba4da69fa98b]
+[setup] [Plugin 12] 3: Plugin Objects management has been activated by glpi (2).
+2025-10-17 12:44:55 [2@ba4da69fa98b]
+[setup] [Plugin 13] 3: Plugin GLPI Inventory has been activated by glpi (2).
+2025-10-17 12:44:58 [2@ba4da69fa98b]
+[setup] [Plugin 14] 3: Plugin Form Creator has been activated by glpi (2).
+2025-10-17 12:45:00 [2@ba4da69fa98b]
+[setup] [Plugin 15] 3: Plugin Escalation has been activated by glpi (2).
+2025-10-17 12:45:02 [2@ba4da69fa98b]
+[setup] [Plugin 16] 3: Plugin Data injection has been activated by glpi (2).
+2025-10-17 12:45:05 [2@ba4da69fa98b]
+[setup] [Plugin 17] 3: Plugin Additional fields has been activated by glpi (2).

@@ -1,0 +1,47 @@
+version: '3.8'
+services:
+  glpi-production:
+    container_name: glpi
+    build: .
+    ports:
+      - "8081:80"
+    depends_on:
+      - mariadb
+    environment:
+      - GLPI_DB_HOST=mariadb
+      - GLPI_DB_NAME=glpi_db
+      - GLPI_DB_USER=glpi_user
+      - GLPI_DB_PASSWORD=glpi_password_123
+      - GLPI_DB_AUTOINSTALL=yes
+      - GLPI_DB_AUTOUPDATE=yes
+    volumes:
+      # Bind mounts - файлы будут доступны на хосте
+      - ./glpi_data:/var/glpi
+      - ./plugins:/var/www/html/plugins
+      - ./marketplace:/var/www/html/marketplace
+      - ./logs:/var/log/glpi
+    healthcheck:
+      test: [ "CMD", "curl", "-f", "http://localhost/" ]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  mariadb:
+    image: mariadb:10.3.39
+    container_name: glpi-db
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password_123
+      MYSQL_DATABASE: glpi_db
+      MYSQL_USER: glpi_user
+      MYSQL_PASSWORD: glpi_password_123
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./sql-scripts:/docker-entrypoint-initdb.d
+
+volumes:
+  mariadb_data:
+  glpi_data:
+  glpi_plugins:
+  glpi_marketplace:
+  glpi_logs:

@@ -1,0 +1,18 @@
+{
+   "alien_build_version" : "2.84",
+   "cflags" : "-IC:/Strawberry-perl-for-GLPI-Agent/c/include/libxml2 ",
+   "cflags_static" : "-IC:/Strawberry-perl-for-GLPI-Agent/c/include/libxml2 -DLIBXML_STATIC ",
+   "install_type" : "system",
+   "legacy" : {
+      "finished_installing" : 1,
+      "install_type" : "system",
+      "name" : "libxml-2.0",
+      "original_prefix" : "C:/Strawberry-perl-for-GLPI-Agent/perl/vendor/lib/auto/share/dist/Alien-Libxml2",
+      "version" : "2.14.3"
+   },
+   "libs" : "-lxml2 ",
+   "libs_static" : "-lxml2 -lz -llzma -liconv -lbcrypt -lm ",
+   "perl_module_version" : "0.20",
+   "prefix" : "C:/Strawberry-perl-for-GLPI-Agent/perl/vendor/lib/auto/share/dist/Alien-Libxml2",
+   "version" : "2.14.3"
+}

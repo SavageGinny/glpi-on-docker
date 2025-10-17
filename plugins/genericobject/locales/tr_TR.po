@@ -1,0 +1,180 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Kaya Zeren <kayazeren@gmail.com>, 2015-2017,2019,2021-2024
+msgid ""
+msgstr ""
+"Project-Id-Version: GLPI Plugin - Genericobject\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-30 01:46+0000\n"
+"PO-Revision-Date: 2015-07-23 09:47+0000\n"
+"Last-Translator: Kaya Zeren <kayazeren@gmail.com>, 2015-2017,2019,2021-2024\n"
+"Language-Team: Turkish (Turkey) (http://app.transifex.com/teclib/glpi-project-plugin-genericobject/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: inc/profile.class.php:152
+msgid "(No types defined yet)"
+msgstr "(Henüz bir tür tanımlanmamış)"
+
+#: inc/type.class.php:195
+msgid "A type already exists with the same name"
+msgstr "Aynı adlı bir tür zaten var"
+
+#: inc/field.class.php:135
+msgid "Add new field"
+msgstr "Alan ekle"
+
+#: inc/type.class.php:676
+msgid "Behaviour"
+msgstr "Davranış"
+
+#: front/familylist.php:44 index.php:74
+msgid "Empty family"
+msgstr "Aile boş"
+
+#: inc/typefamily.class.php:41 inc/type.class.php:516 inc/type.class.php:661
+msgid "Family of type of objects"
+msgstr "Nesnelerin aile türü"
+
+#: front/field.form.php:56
+msgid "Field added successfully"
+msgstr "Alan eklendi"
+
+#: front/field.form.php:46
+msgid "Field(s) deleted successfully"
+msgstr "Alanlar silindi"
+
+#: inc/field.class.php:74
+msgid "Fields associated with the object"
+msgstr "Nesne ile ilişkilendirilmiş alanlar"
+
+#: inc/profile.class.php:144
+msgid "General"
+msgstr "Genel"
+
+#: inc/type.class.php:771
+msgid "Icon (impact analysis)"
+msgstr "Simge (etki incelemesi)"
+
+#: inc/type.class.php:617
+msgid "Internal identifier"
+msgstr "İç belirteç"
+
+#: inc/field.class.php:80
+msgid "Label"
+msgstr "Etiket"
+
+#: inc/type.class.php:925
+msgid "Link to other objects"
+msgstr "Diğer nesnelere bağlantı"
+
+#: inc/field.class.php:81
+msgid "Name in DB"
+msgstr "Veri tabanındaki ad"
+
+#: inc/type.class.php:695
+msgid "Network connections"
+msgstr "Ağ bağlantıları"
+
+#: inc/object.class.php:607
+msgid "Object preview"
+msgstr "Nesne ön izlemesi"
+
+#: inc/profile.class.php:150
+msgid "Objects"
+msgstr "Nesneler"
+
+#: setup.php:238 front/type.form.php:69 front/familylist.php:37
+#: front/familylist.php:49 inc/type.class.php:428 inc/type.class.php:564
+#: inc/object_item.class.php:122 inc/profile.class.php:43 index.php:62
+msgid "Objects management"
+msgstr "Nesne yönetimi"
+
+#: inc/type.class.php:2025
+msgid "Other"
+msgid_plural "Others"
+msgstr[0] "Diğer"
+msgstr[1] "Diğer"
+
+#: inc/field.class.php:345
+msgid "Read-only field"
+msgstr "Salt okunur alan"
+
+#: inc/type.class.php:910
+msgid "Regenerate files"
+msgstr "Dosyaları yeniden oluştur"
+
+#: front/commondropdown.form.php:39 front/commontreedropdown.form.php:39
+#: front/commondropdown.php:39
+msgid "The requested dropdown does not exists"
+msgstr "İstenen açılan kutu bulunamadı"
+
+#: inc/type.class.php:188
+msgid "Type must start with a letter"
+msgstr "Tür bir harf ile başlamalıdır"
+
+#: inc/type.class.php:167
+msgid "Type name is missing"
+msgstr "Tür adı eksik"
+
+#: inc/type.class.php:173
+msgid "Type name must be longer"
+msgstr "Tür adı daha uzun olmalı"
+
+#: front/object.php:37 front/type.php:43 inc/type.class.php:72
+#: inc/profile.class.php:304
+msgid "Type of objects"
+msgstr "Nesne türü"
+
+#: inc/type.class.php:180
+msgid ""
+"Types 'field', 'object' and 'type' are reserved. Please choose another one"
+msgstr "field', 'object' ve 'type' tipleri ayrılmış olduğundan kullanılamaz. Lütfen başka bir tür seçin"
+
+#. TRANS:  %1$s is itemtype name
+#: inc/type.class.php:2439
+#, php-format
+msgid "Unable to load the class %1$s."
+msgstr "%1$s sınıfı yüklenemedi."
+
+#: inc/object.class.php:877
+msgid "You must configure rights to enable the preview"
+msgstr "Ön izlemeyi görüntüleyebilmek için izinleri yapılandırmalısınız"
+
+#. TRANS:  %1$s is itemtype name
+#: inc/type.class.php:2441
+#, php-format
+msgid ""
+"You probably have garbage data in your database for this plugin and missing "
+"files in %1$s"
+msgstr "Veri tabanınızda bu eklenti ve %1$s içindeki eksik dosyalar için büyük olasılıkla çöp veriler var "
+
+#: inc/type.class.php:703
+msgid "geninventorynumber plugin"
+msgstr "Envanter numarası alma uygulama eki"
+
+#: inc/type.class.php:701
+msgid "injection file plugin"
+msgstr "Veri aktarma eklentisi"
+
+#: inc/type.class.php:705
+msgid "item's uninstallation plugin"
+msgstr "Öge kaldırma eklentisi"
+
+#: inc/type.class.php:704
+msgid "order plugin"
+msgstr "Sıralama eklentisi"
+
+#: inc/type.class.php:706
+msgid "simcard plugin"
+msgstr "SIM kart eklentisi"
+
+#: inc/type.class.php:707
+msgid "treeview plugin"
+msgstr "Ağaç görünümü eklentisi"
